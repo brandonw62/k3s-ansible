@@ -1,0 +1,7 @@
+stages:
+  - test
+
+job:
+  image: alpine:latest
+  script:
+    - echo "Hello Pipeline"
